@@ -14,6 +14,7 @@ def nand(a: int, b: int) -> int:
 
 # ---- Worked examples ----
 
+
 def not_(a: int) -> int:
     return nand(a, a)
 
@@ -23,6 +24,7 @@ def and_(a: int, b: int) -> int:
 
 
 # ---- Your turn ----
+
 
 def or_(a: int, b: int) -> int:
     # Hint: De Morgan. a or b == not (not a and not b)
